@@ -1,0 +1,17 @@
+package dev.lab;
+public enum TokenType {
+	VALUE,
+	OBJECT,
+	ARRAY,
+	STRING,
+	NUMBER,
+	LOGICAL_OP,
+	L_CURLY_BRAC,
+	R_CURLY_BRAC,
+	L_SQUARE_BRAC,
+	R_SQUARE_BRAC,
+	WHITESPACE,
+	COMMA,
+	COLON,
+	EOS
+}
